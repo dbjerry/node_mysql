@@ -1,3 +1,4 @@
 *.log
 db.js
 node_modules/
+*.sql

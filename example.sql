@@ -52,4 +52,6 @@ SELECT * FROM topic;
 SELECT * FROM topic WHERE id = 3;
 
 SELECT * FROM author;
-SELECT * FROM topic t INNER JOIN author a ON t.author_id = a.id;
+SELECT * FROM topic t INNER JOIN author a ON t.author_id  = a.id;
+SELECT * FROM author;
+SELECT * FROM topic WHERE id = 2;
