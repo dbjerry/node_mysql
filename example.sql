@@ -49,3 +49,7 @@ INSERT INTO `topic` VALUES (5,'MongoDB','MongoDB is ...','2018-01-30 12:31:03',1
 SHOW tables;
 
 SELECT * FROM topic;
+SELECT * FROM topic WHERE id = 3;
+
+SELECT * FROM author;
+SELECT * FROM topic t INNER JOIN author a ON t.author_id = a.id;
